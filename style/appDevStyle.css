@@ -1,0 +1,148 @@
+main img{
+    width: 1349px;
+    height: 981px;
+}
+
+.box-container
+{
+    display: flex;
+}
+.box-container .box1 h1{
+    position: absolute;
+    width: 397px;
+height: 44px;
+    left: 211px;
+    top: 88.24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #21295C;
+    
+}
+
+.btn-container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: absolute;
+       left: 210px;
+    top: 200px;
+}
+
+.appdevbtn
+{
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #21295C;
+    width: 241px;
+height: 44px;
+border-radius: 8px;
+background-color: transparent;
+border: 1px solid #21295C;
+}
+
+.appdevbtn:hover{
+color: #FFFFFF; 
+background: #07405B;
+}
+
+.box-container .box2{
+position: absolute;
+    left: 600px;
+    top: 165px;
+    
+}
+
+.box-container .box2 h1{
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+color: #21295C;
+width: 561px;
+    height: 40.78px;
+    text-align: center;
+}
+
+.box-container .box2 .block1{
+    width: 631px;
+    height: 95px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #21295C;
+margin-top: 35px;
+}
+
+.box-container .box2 .block1 .para1
+{
+    padding: 10px;
+}
+
+.box-container .box2 .block2{
+display: flex;
+gap: 25px;
+margin-top: 100px;
+}
+
+.box-container .box2 img{
+width: 239px;
+height: 147.19px;
+border-radius: 4px;
+
+}
+
+.box-container .box2 .block2 strong{
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #21295C;
+width: 153px;
+height: 20.24px;
+position: absolute;
+margin-top: 153px;
+margin-left: 55px;
+}
+
+.box-container .box2 .para2{
+width: 367px;
+    height: 139.83px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #21295C;
+}
+
+.box-container .box2 .block3{
+    display: flex;
+    gap: 25px;
+    margin-top: 100px;
+    }
+
+    .box-container .box2 .block3 strong{
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #21295C;
+        width: 153px;
+        height: 20.24px;
+        position: absolute;
+        margin-top: 153px;
+        margin-left: 448px;
+        }

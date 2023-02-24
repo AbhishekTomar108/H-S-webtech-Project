@@ -1,0 +1,121 @@
+nav{
+    margin-top: -18px;
+}
+.profileSection1{
+    background-color: #0EC7CA;
+    height: 1349px;
+}
+
+.profileSection1 .box{
+    position: absolute;
+     height: 1125px;
+     width: 1092px;
+     left: 142px;
+    top: 155px;
+    background: #FFFFFF;
+}
+
+.profileSection1 .profilebox{
+    box-sizing: border-box;
+
+position: absolute;
+width: 600px;
+height: 1054px;
+left: 243px;
+top: 38px;
+background: #C6F0F3;
+border: 1px solid #000000;
+}
+
+.girlimage1{
+    
+    position: absolute;
+    left: 845px;
+    top: 0px;
+}
+
+.girlimage2{
+    position: absolute;
+    top:30rem;
+}
+
+.profileIcon{
+    box-sizing: border-box;
+    position: absolute;
+    width: 167px;
+    height: 177px;
+    left: 212px;
+    top: 10px;
+}
+
+.profileSection1 h2{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 42px;
+text-decoration:underline;
+position: absolute;
+    top: 11rem;
+    left: 15rem;
+
+}
+
+.profileSection1 form{
+display: grid;
+grid-template-columns: 166px 10px;
+gap: 40px;
+    position: absolute;
+    top: 18rem;
+    left: 5rem;
+}
+
+.profileSection1 label{
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.profileSection1 input{
+width: 266px;
+height: 40px;
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 8px;
+font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.savebtn
+{
+    background: #FFFFFF;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+border-radius: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+color: #07405B;
+width: 80px;
+    height: 35px;
+    margin-left: 10rem;
+    margin-top: 1rem;
+}
+.backbtn
+{
+    background: #FFFFFF;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+border-radius: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+color: #07405B;
+width: 80px;
+    height: 35px;
+    margin-left: 32rem;
+    margin-top: 63rem;
+}

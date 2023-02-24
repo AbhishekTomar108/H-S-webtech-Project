@@ -1,11 +1,13 @@
 body{
-    margin-top: -16px;
-    margin-left: 0;
-    margin-right: 0;
+  margin: 0;
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
 nav{
+    width: 1349px;
     height: 78px;
     background: linear-gradient(270.04deg, #01999C 18.06%, rgba(1, 153, 156, 0.72) 64.57%, rgba(255, 255, 255, 0.81) 80.71%, #FFFFFF 102.19%);
 }
@@ -14,15 +16,17 @@ nav ul
 {
     height:78px;
     margin-left: 280px;
+    margin-top: 0;
 }
 nav ul li{
 list-style-type: none;
-font-family: 'Inter';
+ font-family: Inter, sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 color: #FFFFFF;
 cursor: pointer;
+text-decoration: none;
 }
 
 .nav-logo{
@@ -34,11 +38,11 @@ border-radius: 0px 0px 8px 8px;
 }
 
 .logo-headline{
-    position: absolute;
+    /* position: absolute; */
     margin-top: 57px;
     margin-left: 123px;
     color: #01999C;
-    font-family: 'Inter';
+     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -47,21 +51,25 @@ border-radius: 0px 0px 8px 8px;
 .section-bgimg
 {
 Width :1349px;
-Height :825.73px;
+Height :702px;
 }
 
 .section2{
-    margin-top: -89px;
+    margin-top: -77px;
 }
 
 .section1SlideImg{
-    position:absolute;
+    /* position:absolute; */
     left:11rem;
     top:15rem;
 }
 
+.chatlogo{
+left: 76rem;
+    margin-top: 504px;
+}
 .section1 ul{
-    position: absolute;
+    /* position: absolute; */
     top:4.3rem;
     width: 1309px;
     right: 6.9rem;
@@ -70,3 +78,193 @@ Height :825.73px;
 .section1 ul li{
 list-style-type: none;
 }
+
+.section2Coverimage{
+left: 10rem;
+margin-top: -1px;
+height: 708px;
+}
+
+.section2 ul{
+    margin-top: -36rem;
+    left: 11rem;
+    gap: 3.8rem;
+    color: #FFFFFF;
+}
+.section2 ul li{
+     font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+list-style: none;
+color: #21295C;
+}
+
+.section2 h1{
+     font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+margin-top: -42rem;
+    left: 18rem;
+    gap: 10px;
+    color: #FFFFFF;
+}
+
+.section2 ul button{
+    width: 298px;
+height: 64px;
+background: #FFFFFF;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.section3coverimage{
+    left: 110px;
+    margin-top: 200px;
+}
+
+.section4{
+    margin-top: -4px;
+}
+.section4-textimg{
+width: 190px;
+height: 493px;
+margin-bottom: 117px;
+}
+
+.section4-bgimg{
+width: 807.96px;
+height: 652px;
+}
+
+.section4 ul{
+top: 2153px;
+    left: 986px;
+    gap: 50px;
+}
+
+.section4 ul button{
+    width: 298px;
+height: 64px;
+background: #FFFFFF;
+border-radius: 8px;
+ font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+footer{
+    background-color:#01999C;
+    height: 436px;
+    margin-top: 40px;
+}
+
+.section4Heading{
+    display: grid;
+    grid-template-columns: 26% 26% 27% 0;
+padding: 10px;
+border-radius: 8px;
+margin: 0 100px;
+}
+
+.section4Heading .topbtn{
+    margin-top: 38px;
+    width: 187px;
+    height: 38px;
+     font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    border-radius: 8px;
+    background: #0B8B8D;
+    color: white;
+    border: 1px solid #0B8B8D;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding: 60px 130px;
+    padding-bottom: 0;
+}
+
+footer h1{
+    width: fit-content;
+    padding: 0 10px;
+    height: 44px;
+    background: #0B8B8D;
+    border-radius: 8px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+ }
+
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    margin-top: 55px;
+}
+
+footer ul li{
+    border-radius: 4px;
+    cursor: pointer;
+    background: #01999C;
+    width: fit-content;
+    height: 40px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid #208e91;
+    box-shadow: 1px 1px 1px #208e91;
+    padding: 10px;
+
+}
+
+footer .footer-box3 ul li{
+    width: 139px;
+border: none;
+box-shadow: none;
+padding: 0;
+}
+
+footer .footer-box4 ul{
+    display: grid;
+    grid-template-columns: 50px auto;
+
+}
+
+footer .footer-box4 img{
+    width: 24px;
+height: 24px;
+}
+
+footer .footer-box4 ul li{
+ 
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin-top: -9px;
+}
+

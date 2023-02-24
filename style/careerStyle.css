@@ -1,0 +1,269 @@
+.careerSection1 img{
+    width: 1349px;
+height: 655px;
+}
+
+.careerSection1 .box{
+position: absolute;
+width: 380px;
+height: 181px;
+left: 70px;
+top: 161px;
+
+font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 54px;
+
+color: #FFFFFF;
+}
+
+.careerSection1 .box2{
+position: absolute;
+width: 361px;
+height: 72px;
+left: 88px;
+top: 494px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF;
+}
+
+.careerSection1 span{
+position: absolute;
+    width: 240px;
+    height: 20px;
+    left: 88px;
+    top: 629px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.careerSection1 input{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+box-sizing: border-box;
+    position: absolute;
+    width: 360px;
+    height: 40px;
+    left: 65px;
+    top: 649px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 25px;
+}
+
+.careerSection1 button img{
+    cursor: pointer;
+position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 0;
+    top: 0;
+}
+
+.careerSection1 button{
+    cursor: pointer;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 383px;
+    top: 653px;
+    background: white;
+    border: 0;
+}
+
+.careerSection2 img{
+box-sizing: border-box;
+
+position: absolute;
+width: 1349px;
+height: 900px;
+left: 0px;
+top: 733px;
+}
+
+.careerSection3 .box{
+position: absolute;
+    width: 153px;
+    height: 350px;
+    left: 28px;
+    top: 1729px;
+}
+
+.careerSection3 .box2{
+box-sizing: border-box;
+position: absolute;
+width: 879px;
+height: 560px;
+left: 200px;
+top: 1632px;
+background: #FFFEFE;
+border: 1px solid #000000;
+}
+
+.careerSection3 .box2 h2{
+position: absolute;
+width: 488px;
+height: 44px;
+left: 5px;
+/* top: 1642px; */
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+color: #000000;
+}
+
+.img2{
+position: absolute;
+width: 271px;
+height: 560px;
+left: 1050px;
+top: -96px;
+}
+
+.careerSection2 .box-container{
+    position: absolute;
+      left: 99px;
+    top: 790px;
+    display: grid;
+    position: absolute;
+    left: 99px;
+    top: 790px;
+    display: grid;
+    grid-template-columns: 27% 27% 27% 27% 27%;
+    row-gap: 30px;
+   
+}
+.careerSection2 .box-container .box{
+      width: 187px;
+    height: 206px;
+      background: #D9D9D9;
+border: 1px solid #000000;
+}
+
+.careerSection2 .box-container .box ul{
+list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 10px;
+}
+
+.careerSection2 .box-container .box #apply-btn{
+    background: #D9D9D9;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 75%);
+       width: 94px;
+    height: 19px;
+    margin: 18px 45px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+            padding: 0;
+    left: 0;
+}
+
+.careerSection2 #more-btn{
+    cursor: pointer;
+    position: absolute;
+    width: 149px;
+    height: 50px;
+    left: 637px;
+    top: 1528px;
+    background: #07405B;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.detail-container{
+    position: absolute;
+    width: 156px;
+    height: 31px;
+    left: 0px;
+    top: 168px;
+    display: grid;
+    grid-template-columns: 533px 0px;
+    row-gap: 80px;
+}
+
+.careerSection3 input{
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: rgba(0, 0, 0, 0.5);
+text-align: center;
+border-bottom: 2px solid black;
+    padding: 12px;
+    width: 320px;
+    position: absolute;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.careerSection3 select{
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: rgba(0, 0, 0, 0.5);
+text-align: center;
+border-bottom: 2px solid black;
+    padding: 12px;
+    width: 344px;
+    position: absolute;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.text-img{
+    position: absolute;
+    width: 193px;
+    height: 14px;
+    left: 76px;
+    top: 300px;
+}
+
+#submit-btn
+{
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    left: 388px;
+    top: 330px;
+    background: #07405B;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 75%);
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+padding: 10px;
+cursor: pointer;
+color: #FFFFFF;
+}
