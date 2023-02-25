@@ -9,16 +9,17 @@ main img{
 }
 .box-container .box1 h1{
     position: absolute;
-    width: 397px;
-height: 44px;
-    left: 211px;
-    top: 88.24px;
+    width: 221px;
+    height: 74px;
+    left: 215px;
+    top: 64.24px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
-    color: #21295C;
+    color: #000000;
+    text-align: center;
     
 }
 
@@ -32,7 +33,7 @@ height: 44px;
     top: 200px;
 }
 
-.appdevbtn
+.GDbtn
 {
     cursor: pointer;
     font-family: 'Inter', sans-serif;
@@ -41,14 +42,15 @@ height: 44px;
     font-size: 20px;
     line-height: 24px;
     color: #21295C;
-    width: 241px;
-height: 44px;
-border-radius: 8px;
-background-color: transparent;
-border: 1px solid #21295C;
+    width: 242px;
+    padding: 10px;
+    height: fit-content;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid #21295C;
 }
 
-.appdevbtn:hover{
+.GDbtn:hover{
 color: #FFFFFF; 
 background: #07405B;
 }
@@ -56,7 +58,7 @@ background: #07405B;
 .box-container .box2{
 position: absolute;
     left: 600px;
-    top: 165px;
+    top: 175px;
     
 }
 
@@ -81,7 +83,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 19px;
 color: #21295C;
-margin-top: 35px;
+margin-top: 65px;
 }
 
 .box-container .box2 .block1 .para1
@@ -98,7 +100,7 @@ margin-top: 100px;
 .box-container .box2 img{
 width: 239px;
 height: 147.19px;
-border-radius: 4px;
+border: 1px solid #000000;
 
 }
 

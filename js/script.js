@@ -28,3 +28,13 @@ Array.from(VTSdevbtn).forEach((element,index) => {
 });
 
 
+let GDbtn = document.getElementsByClassName('GDbtn');
+
+Array.from(GDbtn).forEach((element,index) => {
+    element.addEventListener('click',()=>{
+        console.log("yeah it is working",index);
+        location.href=`../Graphics-Design/GDDevelopment${index+1}.html`;
+    })
+});
+
+
